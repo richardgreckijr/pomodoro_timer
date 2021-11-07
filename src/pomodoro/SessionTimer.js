@@ -1,8 +1,8 @@
 import React from "react"
 import {minutesToDuration, secondsToDuration} from '../utils/duration';
 
+  // Renders progress bar and current session time 
 function SessionTimer({session, focusDuration, breakDuration}){
-
 if(session !== null){
     return (
       <div>
