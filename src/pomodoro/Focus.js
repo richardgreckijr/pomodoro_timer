@@ -1,7 +1,9 @@
 import React from "react"
 import {minutesToDuration} from "../utils/duration"
 
-function Focus ({disableMenu, focusDuration, focusIncrease, focusDecrease}){
+// Renders the focus controls and current duration; condtionally changes from play/pause
+function Focus ({focusDuration, disableMenu, focusIncrease, focusDecrease})
+{
   return (
           <div className="col">
           <div className="input-group input-group-lg mb-2">
