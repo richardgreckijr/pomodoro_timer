@@ -107,12 +107,12 @@ function Pomodoro() {
   
   // Click handler for stop button; Resets pomodoro
   function stopHandle () {
-    setDisableStop(true)
-    setIsTimerRunning(false)
-    setDisableMenu(false)
-    setFocusDuration(25)
-    setBreakDuration(5)
-    setSession(null)
+    setDisableStop(true);
+    setIsTimerRunning(false);
+    setDisableMenu(false);
+    setFocusDuration(25);
+    setBreakDuration(5);
+    setSession(null);
   }
 
   return (

@@ -1,6 +1,7 @@
 import React from "react"
 import classNames from "../utils/class-names";
 
+          // renders Play/Pause, and Stop buttons. 
 function PlayStop({stopHandle, playPause, isTimerRunning, disableStop}){
   return(
           <div className="col">
@@ -30,7 +31,7 @@ function PlayStop({stopHandle, playPause, isTimerRunning, disableStop}){
               data-testid="stop"
               title="Stop the session"
               onClick={stopHandle}
-            //   disabled={disableStop}
+              disabled={disableStop}
             >
               <span className="oi oi-media-stop" />
             </button>
