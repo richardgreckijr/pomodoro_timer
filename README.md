@@ -20,4 +20,5 @@ Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Tech
 
 ## Example
 ![Pomodoro](/images/pomodoro.png)
-![Focus](/images/focus.png)
+<br/>
+![Focus](/images/Focus.png)
