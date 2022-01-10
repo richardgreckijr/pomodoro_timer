@@ -7,6 +7,10 @@ Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Tech
 ## Live Demo
 [Pomodoro timer](https://pomodoro-timer-sable.vercel.app/)
 
+## Installation
+Fork and clone this repo, then run `npm install` for the associated dependencies.
+Run `npm start` to start the project 
+
 ## Stack
 - HTML
 - CSS
